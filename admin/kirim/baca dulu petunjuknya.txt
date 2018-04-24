@@ -1,0 +1,6 @@
+petunjuk perbaikan program
+1. copykan file create_bus.php, laporan_bus.php, update_bus.php, laporan_bus.php, dan view_bus.php kedalam folder "admin"
+2. copykan file laporan_pembayaran.php dan print_laporan_pembayaran.php kedalam folder "admin" dan "manager"
+3. buka phpmyadmin kemudian klik database "pesan_tiket" kemudian klik SQL dan copykan kode di bawah ini:
+		 ALTER TABLE `bus` ADD `plat_nmr` INT(12) NOT NULL AFTER `nmr_bus`;
+4. klik GO
